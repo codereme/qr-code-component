@@ -2,7 +2,7 @@
 
 Let me walk you through how I built this QR Code Component step by step. It was quite a journey!
 
-![Desktop screenshot](./images/desktop-screenshot.png)
+![Desktop screenshot](./images/screenshot.png)
 
 ## Table of contents
 

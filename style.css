@@ -3,6 +3,7 @@
   --white: hsl(0, 0%, 100%);
   --slate-200: hsl(212, 50%, 92%);
   --slate-300: hsl(212, 45%, 89%);
+  --slate-400: hsl(213, 35%, 82%);
   --slate-500: hsl(216, 15%, 48%);
   --slate-900: hsl(218, 44%, 22%);
 
@@ -52,7 +53,7 @@ html {
   background: linear-gradient(
     135deg,
     var(--slate-300) 0%,
-    var(--slate-200) 100%
+    var(--slate-400) 100%
   );
 }
 .card {
