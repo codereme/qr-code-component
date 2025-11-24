@@ -5,6 +5,54 @@
     "description": "Challenge newbie part of learning path",
     "image": "./qr-code-component/images/screenshot.png",
     "path": "./qr-code-component/index.html",
-    "code": "./"
+    "code": "./https://codereme.github.io/frontend-mentor-solutions/tree/main/qr-code-component"
+  },
+  {
+    "id": 2,
+    "name": "Blog Preview Card",
+    "description": "Challenge ",
+    "image": "./blog-preview-card/assets/images/screenshot.png",
+    "path": "./blog-preview-card/index.html",
+    "code": "./https://codereme.github.io/frontend-mentor-solutions/tree/main/blog-preview-card"
+  },
+  {
+    "id": 3,
+    "name": "Social Links Profile",
+    "description": "Challenge ",
+    "image": "./social-links-profile/assets/images/screenshot.png",
+    "path": "./social-links-profile/index.html",
+    "code": "./https://codereme.github.io/frontend-mentor-solutions/tree/main/social-links-profile"
+  },
+  {
+    "id": 4,
+    "name": "Recipe Page",
+    "description": "Challenge ",
+    "image": "./recipe-page/assets/images/screenshot.png",
+    "path": "./recipe-page/index.html",
+    "code": "./https://codereme.github.io/frontend-mentor-solutions/tree/main/recipe-page"
+  },
+  {
+    "id": 5,
+    "name": "Product Preview Card Component",
+    "description": "Challenge ",
+    "image": "./product-preview-card/images/desktop-screenshot.png",
+    "path": "./product-preview-card/index.html",
+    "code": "./https://codereme.github.io/frontend-mentor-solutions/tree/main/product-preview-card"
+  },
+  {
+    "id": 6,
+    "name": "Four Card Feature Section",
+    "description": "Challenge ",
+    "image": "./four-card-feature-section/images/desktop-screenshot.png",
+    "path": "./four-card-feature-section/index.html",
+    "code": "./https://codereme.github.io/frontend-mentor-solutions/tree/main/four-card-feature-section"
+  },
+  {
+    "id": 7,
+    "name": "Testimonials Grid Section",
+    "description": "Challenge ",
+    "image": "./testimonials-grid-section/images/desktop-screenshot.png",
+    "path": "./testimonials-grid-section/index.html",
+    "code": "./https://codereme.github.io/frontend-mentor-solutions/tree/main/testimonials-grid-section"
   }
 ]

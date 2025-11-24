@@ -49,7 +49,7 @@ Beyond the visual design, I also focused on accessibility and SEO fundamentals
 
 - The challenge: [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H)
 - Solution URL:[https://www.frontendmentor.io/solutions/qr-code-component-built-with-css-MNDzfeabD9](https://www.frontendmentor.io/solutions/qr-code-component-built-with-css-MNDzfeabD9)
-- Live Site URL: [https://codereme.github.io/qr-code-component](https://codereme.github.io/qr-code-component)
+- Live Site URL: [https://codereme.github.io/frontend-mentor-solutions/qr-code-component/index.html](https://codereme.github.io/frontend-mentor-solutions/qr-code-component/index.html)
 
 ## Author
 
