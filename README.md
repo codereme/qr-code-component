@@ -81,24 +81,6 @@
 
 ![Preview](./huddle-landing-page/design/preview.jpg)
 
-#### Interactive Rating Component
-
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/interactive-rating-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/interactive-rating-component">Code</a>
-</div>
-
-![Preview](./interactive-rating-component/design/preview.jpg)
-
-#### NFT Preview Card Component
-
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/nft-preview-card-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/nft-preview-card-component">Code</a>
-</div>
-
-![Preview](./nft-preview-card-component/design/preview.jpg)
-
 #### Order Summary Component
 
 <div>
@@ -107,15 +89,6 @@
 </div>
 
 ![Preview](./order-summary-component/design/preview.jpg)
-
-#### Ping Coming Soon Page
-
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/ping-coming-soon-page/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/ping-coming-soon-page">Code</a>
-</div>
-
-![Preview](./ping-coming-soon-page/design/preview.jpg)
 
 #### Profile Card Component
 
