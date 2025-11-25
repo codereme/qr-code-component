@@ -1,0 +1,108 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Colors */
+  --blue-600: hsl(185, 75%, 39%);
+  --navy-950: hsl(229, 23%, 23%);
+  --gray-500: hsl(227, 10%, 46%);
+  --gray-100: hsl(225, 10%, 92%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Fonts */
+  --ff-body: "Kumbh Sans", sans-serif;
+  --fw-regular: 400;
+  --fw-bold: 700;
+
+  /* Spacings */
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  /* Border radius */
+  --border-radius-sm: 12px;
+
+  /* Box shadows */
+  --shadow-subtle: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  min-height: 100vh;
+
+  background-color: var(--blue-600);
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat;
+  background-size: 800px, 800px;
+  background-position: right 50vw bottom 40vh, left 50vw top 40vh;
+}
+.card {
+  width: min(20rem, 90vw);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--white);
+  box-shadow: var(--shadow-subtle);
+  overflow: hidden;
+  font-family: var(--ff-body);
+}
+.bg-pattern {
+  height: 8.75rem;
+  background-image: url("./images/bg-pattern-card.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.profile {
+  padding-block-end: 1rem;
+  text-align: center;
+}
+.profile-pic {
+  width: 6.5rem;
+  border: 5px solid var(--white);
+  border-radius: 50%;
+  transform: translateY(-50%);
+}
+.profile-name {
+  margin-block-start: -3rem;
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  color: var(--navy-950);
+  line-height: 1.7;
+}
+.profile-age {
+  font-weight: var(--fw-regular);
+  color: var(--gray-500);
+}
+.profile-location {
+  font-weight: var(--fw-regular);
+  color: var(--gray-500);
+}
+.divider {
+  border: 1px solid var(--gray-100);
+}
+.stats {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  padding-block: var(--spacing-md);
+}
+.stats-number {
+  display: block;
+  font-size: 1.125rem;
+  font-weight: var(--fw-bold);
+  line-height: 1.6;
+  color: var(--navy-950);
+}
+.stats-label {
+  font-size: 0.875rem;
+  color: var(--gray-500);
+  letter-spacing: 1px;
+}
