@@ -1,0 +1,209 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* Colors */
+  --very-dark-magenta: hsl(300, 43%, 22%);
+  --soft-pink: hsl(333, 80%, 67%);
+
+  --dark-grayish-magenta: hsl(303, 10%, 53%);
+  --medium-grayish-magenta: hsl(300, 24%, 86%);
+  --light-grayish-magenta: hsl(300, 24%, 96%);
+  --white: hsl(0, 0%, 100%);
+
+  /* Fonts */
+  --fs-base: 15px;
+  --fs-sm: 0.9rem;
+  --fs-md: 1rem;
+  --fs-lg: 2rem;
+  --ff-body: "Spartan", sans-serif;
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  /* Spacings */
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+
+  /* Border radius */
+  --border-radius-sm: 8px;
+
+  /* Box shadows */
+  --shadow-subtle: 0px 4px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+html {
+  font-family: var(--ff-body);
+  font-size: var(--fs-base);
+}
+
+/************************* 
+  Layout
+**************************/
+.page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+
+  padding-block: var(--spacing-lg);
+
+  background-color: var(--light-grayish-magenta);
+  background-image: url(../images/bg-pattern-top-mobile.svg),
+    url(../images/bg-pattern-bottom-mobile.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, left bottom;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md);
+}
+.rates .content {
+  align-items: center;
+}
+.rate-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-md);
+
+  width: min(23rem, 90vw);
+  padding: var(--spacing-md);
+
+  background-color: var(--medium-grayish-magenta);
+  border-radius: var(--border-radius-sm);
+  box-shadow: var(--shadow-subtle);
+}
+.cards-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding-block-start: var(--spacing-lg);
+}
+.card {
+  width: min(23rem, 90vw);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--very-dark-magenta);
+  box-shadow: var(--shadow-subtle);
+}
+.card .content {
+  padding: var(--spacing-lg);
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+}
+
+/************************* 
+  Typography
+**************************/
+.intro .content {
+  align-items: center;
+  text-align: center;
+  color: var(--very-dark-magenta);
+}
+.intro-title {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-bold);
+  max-inline-size: 13ch;
+}
+.intro-description {
+  font-size: var(--fs-md);
+  line-height: 1.5;
+  max-inline-size: 45ch;
+}
+.rate-description {
+  font-weight: var(--fw-bold);
+}
+.card .content {
+  color: var(--white);
+}
+.profile-name {
+  font-size: var(--fs-md);
+}
+.profile-status {
+  font-size: var(--fs-sm);
+  color: var(--soft-pink);
+  line-height: 1.9;
+}
+.card-testimonial {
+  line-height: 1.7;
+}
+/************************* 
+  Images
+**************************/
+.profile-pic {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}
+.star-icons {
+  width: 150px;
+  height: 24px;
+
+  background-image: url("./images/icon-star.svg"), url("./images/icon-star.svg"),
+    url("./images/icon-star.svg"), url("./images/icon-star.svg"),
+    url("./images/icon-star.svg");
+
+  background-position: 0 0, 30px 0, 60px 0, 90px 0, 120px 0;
+  background-size: 24px;
+  background-repeat: no-repeat;
+}
+
+/************************* 
+  Media Queries
+**************************/
+@media (min-width: 48rem) {
+  .page-container {
+    background-image: url(./images/bg-pattern-top-desktop.svg),
+      url(./images/bg-pattern-bottom-desktop.svg);
+    background-position: left top, right bottom;
+  }
+  .container {
+    max-width: 1100px;
+    margin: auto;
+  }
+  .cards-section {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media (min-width: 64rem) {
+  .intro .content {
+    align-items: flex-start;
+    text-align: left;
+  }
+  .intro-rates-wrapper-md {
+    display: flex;
+    justify-content: space-between;
+  }
+  .rate-container {
+    width: min(30rem, 90vw);
+    flex-direction: row;
+    align-items: center;
+  }
+  .rate-container:first-child {
+    margin-inline-end: 8rem;
+  }
+  .rate-container:last-child {
+    margin-inline-start: 8rem;
+  }
+}
+@media (min-width: 75rem) {
+  .card:nth-child(2) {
+    margin-block-start: 2rem;
+  }
+  .card:last-child {
+    margin-block-start: 4rem;
+  }
+}
