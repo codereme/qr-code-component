@@ -21,7 +21,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/css-profile-card-component-LVi6YzIrNe](https://www.frontendmentor.io/solutions/css-profile-card-component-LVi6YzIrNe)
-- Live Site URL: [https://codereme.github.io/profile-card-component](https://codereme.github.io/profile-card-component)
+- Live Site URL: [https://codereme.github.io/profile-card-component/index.html](https://codereme.github.io/profile-card-component/index.html)
 
 ## Author
 

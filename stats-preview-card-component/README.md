@@ -22,7 +22,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/flex-card-component-IXekHU8DZl](https://www.frontendmentor.io/solutions/flex-card-component-IXekHU8DZl)
-- Live Site URL: [https://codereme.github.io/stats-preview-card-component](https://codereme.github.io/stats-preview-card-component)
+- Live Site URL: [https://codereme.github.io/stats-preview-card-component/index.html](https://codereme.github.io/stats-preview-card-component/index.html)
 
 ## Author
 

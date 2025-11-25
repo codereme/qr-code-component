@@ -24,7 +24,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/3-column-flex-card-Z08rUbh6b7](https://www.frontendmentor.io/solutions/3-column-flex-card-Z08rUbh6b7)
-- Live Site URL: [https://codereme.github.io/3-column-preview-card](https://codereme.github.io/3-column-preview-card)
+- Live Site URL: [https://codereme.github.io/3-column-preview-card/index.html](https://codereme.github.io/3-column-preview-card/index.html)
 
 ## Author
 

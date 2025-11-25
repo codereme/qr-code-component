@@ -23,7 +23,7 @@ Users should be able to:
 
 - Solution URL: [https://www.frontendmentor.io/solutions/social-proof-section-DWco8Gkn5M](https://www.frontendmentor.io/solutions/social-proof-section-DWco8Gkn5M)
 
-- Live Site URL: [https://codereme.github.io/social-proof-section](https://codereme.github.io/social-proof-section)
+- Live Site URL: [https://codereme.github.io/social-proof-section/index.html](https://codereme.github.io/social-proof-section/index.html)
 
 ## Author
 

@@ -27,7 +27,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/landing-page-with-intro-section-using-flexbox-W3_qsA-9bD](https://www.frontendmentor.io/solutions/landing-page-with-intro-section-using-flexbox-W3_qsA-9bD)
-- Live Site URL: [https://codereme.github.io/huddle-landing-page](https://codereme.github.io/huddle-landing-page)
+- Live Site URL: [https://codereme.github.io/huddle-landing-page/index.html](https://codereme.github.io/huddle-landing-page/index.html)
 
 ## Author
 

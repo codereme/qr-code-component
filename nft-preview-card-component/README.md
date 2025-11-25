@@ -19,7 +19,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-flex-card-component-uGfms42Qno](https://www.frontendmentor.io/solutions/nft-preview-flex-card-component-uGfms42Qno)
-- Live Site URL: [https://codereme.github.io/nft-preview-card-component](https://codereme.github.io/nft-preview-card-component)
+- Live Site URL: [https://codereme.github.io/nft-preview-card-component/index.html](https://codereme.github.io/nft-preview-card-component/index.html)
 
 ## Author
 

@@ -22,7 +22,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/flex-order-summary-component-SsfDdm2C8G](https://www.frontendmentor.io/solutions/flex-order-summary-component-SsfDdm2C8G)
-- Live Site URL: [https://codereme.github.io/order-summary-component](https://codereme.github.io/order-summary-component)
+- Live Site URL: [https://codereme.github.io/order-summary-component/index.html](https://codereme.github.io/order-summary-component/index.html)
 
 ## Author
 

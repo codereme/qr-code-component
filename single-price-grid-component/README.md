@@ -23,7 +23,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-component-QMF26f8s3Z](https://www.frontendmentor.io/solutions/single-price-grid-component-QMF26f8s3Z)
-- Live Site URL: [https://codereme.github.io/single-price-grid-component](https://codereme.github.io/single-price-grid-component)
+- Live Site URL: [https://codereme.github.io/single-price-grid-component/index.html](https://codereme.github.io/single-price-grid-component/index.html)
 
 ## Author
 
