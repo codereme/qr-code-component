@@ -1,4 +1,4 @@
-# Frontend Mentor - Recipe page
+# Recipe page
 
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -16,7 +16,7 @@ The goal was to build the optimal layout for the site depending on their device'
 
 ## Screenshot
 
-![Desktop screenshot for the Recipe page coding challenge](./assets/images/screenshot.png)
+![Desktop screenshot for the Recipe page coding challenge](./assets/images/screenshot-desktop.png)
 
 ## What I learned
 
@@ -60,3 +60,7 @@ The goal was to build the optimal layout for the site depending on their device'
 
 - Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
 - Github - [@codereme](https://github.com/codereme)
+
+---
+
+_\* Last Update: 2025-11-29_
