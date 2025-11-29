@@ -1,3 +1,19 @@
+/** 
+* CONTENTS
+*
+* RESET
+* GLOBAL-STYLES
+* TYPOGRAPHY
+* IMAGES
+* LAYOUT
+* SOCIAL-LINKS
+* MEDIA QUERIES
+*/
+
+/*-------------------------- *\
+  #RESET 
+\*---------------------------*/
+
 *,
 *::before,
 *::after {
@@ -5,6 +21,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*-------------------------- *\
+  #GLOBAL-STYLES 
+\*---------------------------*/
+
 :root {
   /* Colors */
   --green: hsl(75, 94%, 57%);
@@ -17,9 +38,9 @@
   --ff-body: "Inter";
 
   --fs-base: 14px;
-  --fs-sm: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
-  --fs-md: clamp(0.875rem, 0.8rem + 0.375vw, 1rem);
-  --fs-lg: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
+  --fs-sm: clamp(0.75rem, 1.5rem + 0.5rem, 0.875rem);
+  --fs-md: clamp(0.875rem, 2vw + 0.5rem, 1rem);
+  --fs-lg: clamp(1.25rem, 4vw + 0.5rem, 1.5rem);
 
   --fw-regular: 400;
   --fw-semibold: 600;
@@ -27,87 +48,137 @@
 
   /* Spacing */
   --spacing-100: 0.8rem;
-  --spacing-200: 0.875rem;
-  --spacing-300: 1.7rem;
+  --spacing-200: 1.14rem;
+  --spacing-250: 1.71rem;
+  --spacing-300: 2.28rem;
 
   /* Border Radius */
-  --border-radius-sm: 8px;
-  --border-radius-md: 10px;
+  --border-radius-sm: 0.57rem;
+  --border-radius-lg: 1.42rem;
 
   /* Shadows */
-  --shadow-subtle: 0 0 10px rgba(0, 0, 0, 0.2);
+  --shadow-subtle: 0px 15px 15px 0px rgba(0, 0, 0, 0.47);
 }
 html {
   font-family: var(--ff-body);
   font-size: var(--fs-base);
 }
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+
+/*-------------------------- *\
+  #TYPOGRAPHY 
+\*---------------------------*/
+
+.text-preset-1 {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-semibold);
+}
+.text-preset-2 {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-regular);
+}
+.text-preset-2-bold {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-bold);
+}
+.text-preset-3-semibold {
+  font-size: var(--fs-sm);
+  font-weight: var(--fw-semibold);
+}
+.accent-color {
+  color: var(--green);
+}
+
+/*-------------------------- *\
+  #IMAGES 
+\*---------------------------*/
+
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+/*---------------------------*\
+  #LAYOUT 
+\*---------------------------*/
+
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh;
+
+  padding-block: var(--spacing-300);
   background-color: var(--grey-900);
 }
 .card {
-  width: min(23rem, 90vw);
-  max-width: 25rem;
-  padding: var(--spacing-300);
+  padding: var(--spacing-200);
 
   background-color: var(--grey-800);
   color: var(--white);
-  border-radius: var(--border-radius-md);
+  border-radius: var(--border-radius-lg);
   box-shadow: var(--shadow-subtle);
 }
-.card-content {
-  font-size: var(--fs-md);
-  text-align: center;
-  line-height: 1.5;
+.col {
+  display: flex;
+  flex-direction: column;
 }
-.profile-avatar {
-  width: 5rem;
-  height: 5rem;
-  border-radius: 50%;
-  box-shadow: var(--shadow-subtle);
+.col-center {
+  align-items: center;
 }
-.profile-name {
-  margin-block-start: var(--spacing-300);
-  font-weight: var(--fw-bold);
+.gap-md {
+  gap: var(--spacing-200);
 }
-.profile-location {
-  font-weight: var(--fw-semibold);
-  color: var(--green);
+.gap-lg {
+  gap: var(--spacing-300);
 }
-.profile-description {
-  margin-block: var(--spacing-300);
-  font-weight: var(--fw-regular);
-}
-/* Social links */
-.social-list {
-  list-style-type: none;
-}
-.social-item {
+.block-start-md {
   margin-block-start: var(--spacing-200);
+}
+
+/*---------------------------*\
+  #SOCIAL-LINKS 
+\*---------------------------*/
+
+.social-item {
   padding: var(--spacing-100);
   text-align: center;
-  border-radius: var(--border-radius-md);
+  border-radius: var(--border-radius-sm);
   background-color: var(--grey-700);
   cursor: pointer;
   transition: 0.1s ease;
 }
 .social-link {
-  text-decoration: none;
-  font-weight: var(--fw-semibold);
+  font-weight: var(--fw-bold);
   color: var(--white);
   transition: 0.1s ease;
 }
-.social-item:hover {
+.social-item:hover,
+.social-item:focus-visible {
   background-color: var(--green);
 }
-.social-item:hover .social-link {
+.social-item:hover .social-link,
+.social-item:focus-visible .social-link {
+  font-weight: var(--fw-bold);
   color: var(--grey-900);
 }
 
+/*---------------------------*\
+  #MEDIA-QUERIES 
+\*---------------------------*/
+
+@media (min-width: 48rem) {
+  .card {
+    padding: var(--spacing-250);
+  }
+}
 @media (prefers-reduced-motion: reduce) {
   .social-item,
   .social-link {

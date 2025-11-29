@@ -8,7 +8,9 @@
   <title>Frontend Mentor | Social links profile</title>
   <meta name="description"
     content="Solution to Social links profile challenge from Frontend Mentor. Built with semantic HTML and CSS">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
   <link rel="stylesheet" href="./css/fonts.css">
   <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -16,16 +18,30 @@
 <body>
   <main>
     <div class="container">
-      <article class="card">
-        <section class="card-content">
-          <img class="profile-avatar" src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall" width="32"
-            height="32" type="img/jpeg">
-          <h1 class="profile-name">Jessica Randall</h1>
-          <p class="profile-location">London, United Kingdom</p>
-          <p class="profile-description">"Front-end developer and avid reader."</p>
-        </section>
 
-        <ul class="social-list">
+      <article class="card">
+
+        <div class="col col-center gap-lg">
+
+          <img class="avatar" src="./assets/images/avatar-jessica.jpeg" alt="Jessica Randall" width="32" height="32"
+            type="img/jpeg">
+
+          <div class="col gap-md">
+            <h1 class="text-preset-1">
+              Jessica Randall
+            </h1>
+            <p class="text-preset-2-bold accent-color">
+              London, United Kingdom
+            </p>
+          </div>
+
+          <p class="text-preset-2">
+            "Front-end developer and avid reader."
+          </p>
+
+        </div>
+
+        <ul class="col gap-md block-start-md">
           <li class="social-item">
             <a class="social-link" href="#">GitHub</a>
           </li>
@@ -42,7 +58,9 @@
             <a class="social-link" href="#">Instagram</a>
           </li>
         </ul>
+
       </article>
+
     </div>
   </main>
 </body>
