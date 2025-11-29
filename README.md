@@ -4,11 +4,11 @@ Solutions to Frontend Mentor learning paths and other challenges.
 
 ## Table of Content
 
-- [Built with](#built-with)
+- [Built With](#built-with)
 - [Getting Started on Frontend Mentor](#getting-started-on-frontend-mentor)
-- [Building Resposive Layouts](#building-responsive-layouts)
+- [Building Responsive Layouts](#building-responsive-layouts)
 - [More Projects](#more-projects)
-- [Author]()
+- [Author](#author)
 
 ### Built with
 
@@ -209,3 +209,8 @@ Social icon links using `SVG sprite`. Background images for mobile and desktop s
 </div>
 <!-- 
 ![Preview](./single-price-grid-component/design/preview.jpg) -->
+
+## Author
+
+- Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
+- Github - [@codereme](https://github.com/codereme)
