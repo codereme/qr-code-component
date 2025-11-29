@@ -69,16 +69,19 @@ html {
   font-size: var(--fs-lg);
   font-weight: var(--fw-bold);
   line-height: 1.2;
-  color: var(--slate-900);
 }
 .text-preset-2 {
   font-size: var(--fs-md);
   font-weight: var(--fw-regular);
   line-height: 1.4;
   letter-spacing: 0.0133rem;
+}
+.text-dark {
+  color: var(--slate-900);
+}
+.text-light {
   color: var(--slate-500);
 }
-
 /*-------------------------- *\
   #IMAGES 
 \*---------------------------*/
