@@ -1,136 +1,206 @@
 # Frontend Mentor Solutions
 
-## QR Code Component
+Solutions to Frontend Mentor learning paths and other challenges.
+
+## Table of Content
+
+- [Built with](#built-with)
+- [Getting Started on Frontend Mentor](#getting-started-on-frontend-mentor)
+- [Building Resposive Layouts](#building-responsive-layouts)
+- [More Projects](#more-projects)
+- [Author]()
+
+### Built with
+
+- Semantic HTML5 for the structure
+- Accessible markup
+- CSS for the styling
+- Custom properties
+- Utility Classes
+- BEM methodology
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- Responsive design principles
+
+## Getting Started on Frontend Mentor
+
+These projects will help you find your feet on the Frontend Mentor platform and give you experience working with designs and building small projects.
+
+### QR Code Component
+
+Built following the Figma design system. Centered component using Flexbox.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/qr-code-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/qr-code-component">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/qr-code-component/index.html">View live site</a> -
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/qr-code-component">Go to code solution</a>
 </div>
+<!-- 
+![Preview](./qr-code-component/design/preview.jpg) 
+-->
 
-![Preview](./qr-code-component/design/preview.jpg)
+![Desktop screenshot](./qr-code-component/images/screenshot-desktop.png)
 
-## Blog Preview Card
+### Blog Preview Card
+
+Built following the Figma design system. Card with `custom border styling` using box-shadow, with cropping image using the `height` of the image container.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/blog-preview-card/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/blog-preview-card">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/blog-preview-card/index.html">View live site</a> -
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/blog-preview-card">Go to code solution</a>
 </div>
-
+<!-- 
 ![Preview](./blog-preview-card/design/preview.jpg)
+ -->
+![Desktop screenshot](./blog-preview-card/assets/images/screenshot-desktop.png)
 
-## Social Links Profile
+### Social Links Profile
+
+Beautiful social links profile card. Smooth interactive transitions.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/social-links-profile/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/social-links-profile">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/social-links-profile/index.html">View live site</a> -
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/social-links-profile">Go to code solution</a>
 </div>
-
+<!-- 
 ![Preview](./social-links-profile/design/preview.jpg)
+ -->
 
-## Recipe Page
+### Recipe Page
+
+Responsive recipe page with `custom bullet lists` and `table styling`.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/recipe-page/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/recipe-page">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/recipe-page/index.html">View live site</a> -
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/recipe-page">Go to code solution</a>
 </div>
-
+<!-- 
 ![Preview](./recipe-page/design/preview.jpg)
+ -->
 
-## Product Preview Card Component
+## Building Responsive Layouts
 
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/product-preview-card/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/product-preview-card">Code</a>
-</div>
+The challenges in this path are designed to help you get to grips with making layouts that work across all devices.
 
-![Preview](./product-preview-card/design/desktop-preview.jpg)
+### Product Preview Card Component
 
-## Four Card Feature Section
+Featuring responsive typography using `clamp()` and responsive images using `<picture>` with srcset.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/four-card-feature-section/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/four-card-feature-section">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/product-preview-card/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/product-preview-card">Go to code solution</a>
 </div>
 
-![Preview](./four-card-feature-section/design/desktop-preview.jpg)
+<!--
+![Preview](./product-preview-card/design/desktop-preview.jpg) -->
 
-## Testimonials Grid Section
+### Four Card Feature Section
+
+Responsive css grid section. Stylish top border card using pseudoelement.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/testimonials-grid-section/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/testimonials-grid-section">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/four-card-feature-section/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/four-card-feature-section">Go to code solution</a>
 </div>
+<!-- 
+![Preview](./four-card-feature-section/design/desktop-preview.jpg) -->
 
-![Preview](./testimonials-grid-section/design/preview.jpg)
+### Testimonials Grid Section
 
-## 3 Column Preview Card
+CSS Grid section with customized cards.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/3-column-preview-card/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/3-column-preview-card">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/testimonials-grid-section/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/testimonials-grid-section">Go to code solution</a>
+</div>
+<!-- 
+![Preview](./testimonials-grid-section/design/preview.jpg) -->
+
+## More Projects
+
+### Profile Card Component
+
+Use of background image. Avatar positioned using translate transform.
+
+<div>
+<a href="https://codereme.github.io/frontend-mentor-solutions/profile-card-component/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/profile-card-component">Go to code solution</a>
+</div>
+<!-- 
+![Preview](./profile-card-component/design/preview.jpg) -->
+
+### Order Summary Component
+
+Component buitl with accessible markup using aria labels and hidden icon.
+
+<div>
+<a href="https://codereme.github.io/frontend-mentor-solutions/order-summary-component/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/order-summary-component">Go to code solution</a>
+</div>
+<!-- 
+![Preview](./order-summary-component/design/preview.jpg) -->
+
+### NFT Preview Card Component
+
+Component with overlay image hover effect.
+
+<div>
+<a href="https://codereme.github.io/frontend-mentor-solutions/nft-preview-card-component/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/nft-preview-card-component">Go to code solution</a>
 </div>
 
+<!-- ![Preview](./nft-preview-card-component/design/preview.jpg)
+ -->
+
+### Stats Preview Card Component
+
+Use of pseudoelement to create the averlay image purple background.
+
+<div>
+<a href="https://codereme.github.io/frontend-mentor-solutions/stats-preview-card-component/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/stats-preview-card-component">Go to code solution</a>
+</div>
+<!-- 
+![Preview](./stats-preview-card-component/design/preview.jpg) -->
+
+### 3 Column Preview Card
+
+Component with customized sections. Use of BEM methodology.
+
+<div>
+<a href="https://codereme.github.io/frontend-mentor-solutions/3-column-preview-card/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/3-column-preview-card">Go to code solution</a>
+</div>
+<!-- 
 ![Preview](./3-column-preview-card/design/preview.jpg)
+ -->
 
-## Huddle Landing Page
+### Huddle Landing Page
+
+Social icon links using `SVG sprite`. Background images for mobile and desktop screens.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/huddle-landing-page/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/huddle-landing-page">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/huddle-landing-page/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/huddle-landing-page">Go to code solution</a>
 </div>
-
+<!-- 
 ![Preview](./huddle-landing-page/design/preview.jpg)
+ -->
 
-## Order Summary Component
-
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/order-summary-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/order-summary-component">Code</a>
-</div>
-
-![Preview](./order-summary-component/design/preview.jpg)
-
-## Profile Card Component
+### Social Proof Section
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/profile-card-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/profile-card-component">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/social-proof-section/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/social-proof-section">Go to code solution</a>
 </div>
+<!-- 
+![Preview](./social-proof-section/design/desktop-preview.jpg) -->
 
-![Preview](./profile-card-component/design/preview.jpg)
-
-## Single Price Grid Component
+### Single Price Grid Component
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/single-price-grid-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/single-price-grid-component">Code</a>
+<a href="https://codereme.github.io/frontend-mentor-solutions/single-price-grid-component/index.html">View live site</a> |
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/single-price-grid-component">Go to code solution</a>
 </div>
-
-![Preview](./single-price-grid-component/design/preview.jpg)
-
-## Social Proof Section
-
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/social-proof-section/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/social-proof-section">Code</a>
-</div>
-
-![Preview](./social-proof-section/design/desktop-preview.jpg)
-
-## Stats Preview Card Component
-
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/stats-preview-card-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/stats-preview-card-component">Code</a>
-</div>
-
-![Preview](./stats-preview-card-component/design/preview.jpg)
-
-## NFT Preview Card Component
-
-<div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/nft-preview-card-component/index.html">Demo</a> |
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/nft-preview-card-component">Code</a>
-</div>
-
-![Preview](./nft-preview-card-component/design/preview.jpg)
+<!-- 
+![Preview](./single-price-grid-component/design/preview.jpg) -->
