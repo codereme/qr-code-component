@@ -5,13 +5,15 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 ## Built with
 
 - Semantic HTML5 markup
+- Accessible markup
 - CSS custom properties
+- Utility classes
 - Flexbox
 - Mobile-first workflow
 
 ## Screenshot
 
-![Desktop screenshot](./assets/images/screenshot.png)
+![Desktop screenshot](./assets/images/screenshot-desktop.png)
 
 ## What I learned
 
@@ -29,10 +31,13 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 }
 ```
 
-- How to apply stylish borders to the card using `box-shadow`
+- How to apply stylish borders to the card using `border` and `box-shadow`
 
 ```css
-box-shadow: 8px 8px 0 var(--gray-950), 0 0 0 1px var(--gray-950);
+.card {
+  border: 1px solid var(--gray-950);
+  box-shadow: 8px 8px 0px 0px #000000;
+}
 ```
 
 ## Links
@@ -45,3 +50,7 @@ box-shadow: 8px 8px 0 var(--gray-950), 0 0 0 1px var(--gray-950);
 
 - Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
 - Github - [@codereme](https://github.com/codereme)
+
+---
+
+_\* Last Update: 2025-11-29_
