@@ -74,12 +74,14 @@ Beautiful social links profile card with `smooth interactive transitions`.
 Responsive recipe page with `custom bullet lists` and `table styling`.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/recipe-page/index.html">View live site</a> -
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/recipe-page/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/recipe-page">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./recipe-page/design/preview.jpg)
- -->
+
+![Desktop screenshot](./recipe-page/assets/images/screenshot-desktop.png)
 
 ## Building Responsive Layouts
 
