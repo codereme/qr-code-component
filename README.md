@@ -32,12 +32,12 @@ These projects will help you find your feet on the Frontend Mentor platform and 
 Built following the Figma design system. Centered component using Flexbox.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/qr-code-component/index.html">View live site</a> -
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/qr-code-component">Go to code solution</a>
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/qr-code-component/index.html">View live site</a>
+
 </div>
-<!-- 
-![Preview](./qr-code-component/design/preview.jpg) 
--->
 
 ![Desktop screenshot](./qr-code-component/images/screenshot-desktop.png)
 
@@ -46,12 +46,13 @@ Built following the Figma design system. Centered component using Flexbox.
 Built following the Figma design system. Card with `custom border styling` using box-shadow, with cropping image using the `height` of the image container.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/blog-preview-card/index.html">View live site</a> -
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/blog-preview-card">Go to code solution</a>
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/blog-preview-card/index.html">View live site</a>
+
 </div>
-<!-- 
-![Preview](./blog-preview-card/design/preview.jpg)
- -->
+
 ![Desktop screenshot](./blog-preview-card/assets/images/screenshot-desktop.png)
 
 ### Social Links Profile
