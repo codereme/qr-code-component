@@ -57,15 +57,17 @@ Built following the Figma design system. Card with `custom border styling` using
 
 ### Social Links Profile
 
-Beautiful social links profile card. Smooth interactive transitions.
+Beautiful social links profile card with `smooth interactive transitions`.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/social-links-profile/index.html">View live site</a> -
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/social-links-profile/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/social-links-profile">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./social-links-profile/design/preview.jpg)
- -->
+
+![Desktop screenshot](./social-links-profile/assets/images/screenshot-desktop.png)
 
 ### Recipe Page
 
