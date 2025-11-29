@@ -118,12 +118,9 @@ body {
   justify-content: center;
   min-height: 100vh;
 
-  padding-block: var(--spacing-200);
-
   background-color: var(--rose-50);
 }
 .recipe {
-  border-radius: var(--border-radius-lg);
   background-color: var(--white);
   box-shadow: var(--shadow-subtle);
   overflow: hidden;
@@ -229,6 +226,7 @@ body {
   .recipe {
     max-width: 44rem;
     padding: var(--spacing-200);
+    border-radius: var(--border-radius-lg);
   }
   .recipe__image {
     border-radius: var(--border-radius-sm);
