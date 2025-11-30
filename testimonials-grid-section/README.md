@@ -10,7 +10,7 @@ Users should be able to:
 
 ## Screenshot
 
-![Destop screenshot](./images/desktop-screenshot.png)
+![Destop screenshot](./images/screenshot.png)
 
 ## Built with
 
@@ -30,3 +30,7 @@ Users should be able to:
 
 - Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
 - Github - [@codereme](https://github.com/codereme)
+
+---
+
+_\* Last Update: 2025-11-30_
