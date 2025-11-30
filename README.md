@@ -120,11 +120,14 @@ Responsive `css grid` section. Stylish top border card using pseudoelement.
 CSS Grid section with customized cards.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/testimonials-grid-section/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/testimonials-grid-section/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/testimonials-grid-section">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./testimonials-grid-section/design/preview.jpg) -->
+
+![Desktop screenshot](./testimonials-grid-section/images/screenshot.png)
 
 ## More Projects
 
