@@ -33,9 +33,9 @@ Built following the Figma design system. Centered component using Flexbox.
 
 <div>
 
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/qr-code-component">Go to code solution</a>
-
 <a href="https://codereme.github.io/frontend-mentor-solutions/qr-code-component/index.html">View live site</a>
+
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/qr-code-component">Go to code solution</a>
 
 </div>
 
@@ -47,9 +47,9 @@ Built following the Figma design system. Card with `custom border styling` using
 
 <div>
 
-<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/blog-preview-card">Go to code solution</a>
-
 <a href="https://codereme.github.io/frontend-mentor-solutions/blog-preview-card/index.html">View live site</a>
+
+<a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/blog-preview-card">Go to code solution</a>
 
 </div>
 
@@ -99,7 +99,7 @@ Featuring responsive typography using `clamp()` and responsive images using `<pi
 
 </div>
 
-![](./product-preview-card/images/screenshot-desktop.png)
+![Desktop screenshot](./product-preview-card/images/desktop-screenshot.png)
 
 ### Four Card Feature Section
 
