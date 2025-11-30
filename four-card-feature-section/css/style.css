@@ -42,7 +42,7 @@
   --fs-base: 15px;
   --fs-md: clamp(0.93rem, 0.47vw + 0.88rem, 1.06rem);
   --fs-lg: clamp(1.33rem, 0.47vw + 0.88rem, 1.6rem);
-  --fs-xl: clamp(1.86rem, 0.47vw + 0.88rem, 2.26rem);
+  --fs-xl: clamp(1.73rem, 0.47vw + 0.88rem, 2.26rem);
 
   --fw-thin: 200;
   --fw-regular: 400;
