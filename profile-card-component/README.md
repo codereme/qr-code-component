@@ -11,12 +11,11 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- BEM methodology
 - Mobile-first workflow
 
 ## Screenshot
 
-![Desktop screenshot](./images/desktop-screenshot.png)
+![Desktop screenshot](./images/screenshot.png)
 
 ## Links
 
@@ -27,3 +26,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
 - Github - [@codereme](https://github.com/codereme)
+
+---
+
+_\* Last Update: 2025-11-30_
