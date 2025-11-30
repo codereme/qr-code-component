@@ -92,12 +92,14 @@ The challenges in this path are designed to help you get to grips with making la
 Featuring responsive typography using `clamp()` and responsive images using `<picture>` with srcset.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/product-preview-card/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/product-preview-card/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/product-preview-card">Go to code solution</a>
+
 </div>
 
-<!--
-![Preview](./product-preview-card/design/desktop-preview.jpg) -->
+![](./product-preview-card/images/screenshot-desktop.png)
 
 ### Four Card Feature Section
 
