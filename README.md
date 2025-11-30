@@ -136,11 +136,14 @@ CSS Grid section with customized cards.
 Use of background image. Avatar positioned using translate transform.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/profile-card-component/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/profile-card-component/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/profile-card-component">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./profile-card-component/design/preview.jpg) -->
+
+![Desktop screenshot](./profile-card-component/images/screenshot.png)
 
 ### Order Summary Component
 
