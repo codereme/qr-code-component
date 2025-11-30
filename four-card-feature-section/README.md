@@ -10,7 +10,7 @@ Users should be able to:
 
 ## Screenshot
 
-![Desktop screenshot](./images/desktop-screenshot.png)
+![Desktop screenshot](./assets/images/desktop-screenshot.png)
 
 ## Built with
 
@@ -30,8 +30,8 @@ Users should be able to:
   position: absolute;
   inset-block-start: 0;
   inset-inline-start: 0;
-  width: 100%;
-  height: 0.4rem;
+  inline-size: 100%;
+  block-size: 0.4rem;
 }
 .card--supervisor::before {
   background-color: var(--cyan);

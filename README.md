@@ -103,14 +103,17 @@ Featuring responsive typography using `clamp()` and responsive images using `<pi
 
 ### Four Card Feature Section
 
-Responsive css grid section. Stylish top border card using pseudoelement.
+Responsive `css grid` section. Stylish top border card using pseudoelement.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/four-card-feature-section/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/four-card-feature-section/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/four-card-feature-section">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./four-card-feature-section/design/desktop-preview.jpg) -->
+
+![Desktop screenshot](./four-card-feature-section/assets/images/desktop-screenshot.png)
 
 ### Testimonials Grid Section
 
