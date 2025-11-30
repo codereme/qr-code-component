@@ -50,8 +50,9 @@
   --fw-bold: 700;
 
   /* Spacings */
-  --spacing-sm: 1.71rem;
-  --spacing-md: 2.28rem;
+  --spacing-sm: 1.14rem;
+  --spacing-md: 1.71rem;
+  --spacing-lg: 2.28rem;
 
   /* Border Radius */
   --border-radius-sm: 10px;
@@ -135,7 +136,7 @@ html {
   justify-content: center;
   min-height: 100vh;
 
-  padding-block: var(--spacing-md);
+  padding-block: var(--spacing-lg);
   background-color: var(--cream);
 }
 .card {
@@ -149,13 +150,13 @@ html {
 .card-content {
   display: flex;
   flex-direction: column;
-  gap: var(--spacing-md);
-  padding: var(--spacing-md);
+  gap: var(--spacing-sm);
+  padding: var(--spacing-lg);
 }
 .prices {
   display: flex;
   align-items: center;
-  gap: var(--spacing-md);
+  gap: var(--spacing-lg);
 }
 /*---------------------------*\
   #BUTTONS 
@@ -192,6 +193,7 @@ html {
   }
   .card-content {
     inline-size: 50%;
+    gap: var(--spacing-md);
   }
   .img-container {
     inline-size: 50%;
