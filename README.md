@@ -157,7 +157,7 @@ Component buitl with accessible markup using aria labels and hidden icon.
 
 </div>
 
-![Desktop screenshot](./order-summary-component/images/screenshot.png)
+![Desktop screenshot](./order-summary-component/images/screenshot-desktop.png)
 
 ### NFT Preview Card Component
 

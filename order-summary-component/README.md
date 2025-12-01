@@ -15,9 +15,9 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
-## Screenshots
+## Screenshot
 
-![Desktop screenshot](./images/screenshot.png)
+![Desktop screenshot](./images/screenshot-desktop.png)
 
 ## Links
 
@@ -31,4 +31,4 @@ Users should be able to:
 
 ---
 
-_\* Last Update: 2025-11-30_
+_\* Last Update: 2025-12-01_
