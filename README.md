@@ -164,65 +164,80 @@ Component buitl with accessible markup using aria labels and hidden icon.
 Component with overlay image hover effect.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/nft-preview-card-component/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/nft-preview-card-component/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/nft-preview-card-component">Go to code solution</a>
+
 </div>
 
-<!-- ![Preview](./nft-preview-card-component/design/preview.jpg)
- -->
+![Desktop screenshot](./nft-preview-card-component/images/screenshot.png)
 
 ### Stats Preview Card Component
 
 Use of pseudoelement to create the averlay image purple background.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/stats-preview-card-component/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/stats-preview-card-component/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/stats-preview-card-component">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./stats-preview-card-component/design/preview.jpg) -->
+
+![Desktop screenshot](./stats-preview-card-component/images/screenshot.png)
 
 ### 3 Column Preview Card
 
 Component with customized sections. Use of BEM methodology.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/3-column-preview-card/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/3-column-preview-card/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/3-column-preview-card">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./3-column-preview-card/design/preview.jpg)
- -->
+
+![Desktop screenshot]()
 
 ### Huddle Landing Page
 
 Social icon links using `SVG sprite`. Background images for mobile and desktop screens.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/huddle-landing-page/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/huddle-landing-page/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/huddle-landing-page">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./huddle-landing-page/design/preview.jpg)
- -->
+
+![Desktop screenshot]()
 
 ### Social Proof Section
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/social-proof-section/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/social-proof-section/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/social-proof-section">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./social-proof-section/design/desktop-preview.jpg) -->
+
+![Desktop screenshot]()
 
 ### Single Price Grid Component
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/single-price-grid-component/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/single-price-grid-component/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/single-price-grid-component">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./single-price-grid-component/design/preview.jpg) -->
+
+![Desktop screenshot]()
 
 ## Author
 
