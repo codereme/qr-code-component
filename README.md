@@ -150,11 +150,14 @@ Use of background image. Avatar positioned using translate transform.
 Component buitl with accessible markup using aria labels and hidden icon.
 
 <div>
-<a href="https://codereme.github.io/frontend-mentor-solutions/order-summary-component/index.html">View live site</a> |
+
+<a href="https://codereme.github.io/frontend-mentor-solutions/order-summary-component/index.html">View live site</a>
+
 <a href="https://github.com/codereme/frontend-mentor-solutions/tree/main/order-summary-component">Go to code solution</a>
+
 </div>
-<!-- 
-![Preview](./order-summary-component/design/preview.jpg) -->
+
+![Desktop screenshot](./order-summary-component/images/screenshot.png)
 
 ### NFT Preview Card Component
 
