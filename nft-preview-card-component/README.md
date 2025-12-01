@@ -16,6 +16,10 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 
+## Screenshot
+
+![Desktop screenshot](./images/screenshot.png)
+
 ## Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-flex-card-component-uGfms42Qno](https://www.frontendmentor.io/solutions/nft-preview-flex-card-component-uGfms42Qno)
@@ -25,3 +29,7 @@ Users should be able to:
 
 - Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
 - Github - [@codereme](https://github.com/codereme)
+
+---
+
+_\* Last Update: 2025-11-30_
