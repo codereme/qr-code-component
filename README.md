@@ -199,7 +199,7 @@ Component with customized sections. Use of BEM methodology.
 
 </div>
 
-![Desktop screenshot]()
+![Desktop screenshot](./3-column-preview-card/images/screenshot.png)
 
 ### Huddle Landing Page
 
