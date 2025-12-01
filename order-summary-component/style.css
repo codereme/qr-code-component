@@ -1,3 +1,19 @@
+/** 
+* CONTENTS
+*
+* RESET
+* GLOBAL STYLES
+* CARD
+* PLAN
+* BUTTONS
+* LAYOUT
+* MEDIA-QUERIES
+*/
+
+/*-------------------------- *\
+  #RESET 
+\*---------------------------*/
+
 *,
 *::before,
 *::after {
@@ -5,6 +21,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/*-------------------------- *\
+  #GLOBAL-STYLES 
+\*---------------------------*/
+
 :root {
   /* Colors */
   --blue-50: hsl(225, 100%, 98%);
@@ -18,90 +39,88 @@
   /* Fonts */
   --ff-body: "Red Hat Display", sans-serif;
 
+  --fs-sm: 0.875rem;
+  --fs-md: 1rem;
+  --fs-lg: 1.5rem;
+
   --fw-medium: 500;
   --fw-bold: 700;
   --fw-black: 900;
 
   /* Spacing */
-  --spacing-md: 1rem;
+  --spacing-100: 1rem;
+  --spacing-200: 1.5rem;
+  --spacing-300: 2rem;
 
   /* Border radius */
   --border-radius-md: 12px;
-  --border-radius-lg: 24px;
+  --border-radius-lg: 20px;
 
   /* Box shadows */
   --shadow-medium: 0px 15px 25px rgba(0, 0, 0, 0.1);
   --shadow-dark: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-.container {
+body {
+  font-family: var(--ff-body);
+}
+
+/*-------------------------- *\
+  #CARD 
+\*---------------------------*/
+
+.card-title {
+  font-size: var(--fs-lg);
+  font-weight: var(--fw-black);
+  color: var(--blue-950);
+}
+.card-description {
+  font-size: var(--fs-md);
+  font-weight: var(--fw-medium);
+  line-height: 1.6;
+  color: var(--gray-600);
+  max-inline-size: 26ch;
+  margin-inline: auto;
+}
+.card-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-
-  padding: var(--spacing-md);
-
-  background-color: var(--blue-100);
-  background-image: url("./images/pattern-background-mobile.svg");
-  background-repeat: no-repeat;
-  background-size: 100% 50%;
+  gap: var(--spacing-100);
+  padding: var(--spacing-300);
+}
+.card-img {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
 }
 .card {
-  width: min(23rem, 90vw);
-  font-family: var(--ff-body);
+  inline-size: min(25rem, 95vw);
+
   text-align: center;
   border-radius: var(--border-radius-lg);
   background-color: var(--white);
   box-shadow: var(--shadow-medium);
   overflow: hidden;
 }
-.card-img {
-  max-inline-size: 100%;
-  block-size: auto;
-}
-.card-content {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  padding: var(--spacing-md);
-}
-.card-title {
-  font-size: 1.5rem;
-  font-weight: var(--fw-black);
-  color: var(--blue-950);
-}
-.card-description {
-  font-size: 1rem;
-  font-weight: var(--fw-medium);
-  line-height: 1.6;
-  color: var(--gray-600);
-  max-inline-size: 24ch;
-  margin: auto;
-}
 
-.plan-container {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  text-align: left;
-  padding: var(--spacing-md);
-  background-color: var(--blue-50);
-  border-radius: var(--border-radius-md);
-}
+/*-------------------------- *\
+  #PLAN 
+\*---------------------------*/
+
 .plan-name {
-  font-size: 1rem;
+  font-size: var(--fs-md);
   font-weight: var(--fw-black);
   color: var(--blue-950);
-  line-height: 1.6;
+  line-height: 1.8;
 }
 .plan-price {
+  font-size: var(--fs-md);
   color: var(--gray-600);
 }
 .plan-link {
-  text-decoration: underline;
+  font-size: var(--fs-sm);
   font-weight: var(--fw-bold);
+  text-decoration: underline;
   color: var(--blue-700);
   cursor: pointer;
   transition: color 0.2s ease, text-decoration 0.2s ease;
@@ -111,10 +130,28 @@
   text-decoration: none;
   color: var(--blue-alpha);
 }
+.plan-details {
+  flex-grow: 1;
+}
+.plan-container {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-200);
+  text-align: left;
+  padding: var(--spacing-200);
+  background-color: var(--blue-50);
+  border-radius: var(--border-radius-md);
+}
+
+/*-------------------------- *\
+  #BUTTONS 
+\*---------------------------*/
+
 .btn {
-  padding: var(--spacing-md);
+  padding: var(--spacing-100);
   border: none;
   border-radius: var(--border-radius-md);
+  font-size: var(--fs-md);
   font-weight: var(--fw-bold);
   cursor: pointer;
   transition: background-color 0.2s ease, color 0.2s ease;
@@ -136,6 +173,30 @@
 .cancel-btn:focus-visible {
   color: var(--blue-950);
 }
+
+/*-------------------------- *\
+  #LAYOUT 
+\*---------------------------*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 100vh;
+
+  padding-block: var(--spacing-100);
+
+  background-color: var(--blue-100);
+  background-image: url("./images/pattern-background-mobile.svg");
+  background-repeat: no-repeat;
+  background-size: 100% 50%;
+}
+
+/*-------------------------- *\
+  #MEDIA-QUERIES 
+\*---------------------------*/
+
 @media (min-width: 48rem) {
   .container {
     background-image: url("./images/pattern-background-desktop.svg");
