@@ -18,11 +18,7 @@ Users should be able to:
 
 ## Screenshots
 
-<div style="display:flex; align-items:start; gap: 10px;">
-<img src="./assets/screenshots/mobile-screenshot.png" alt="Mobile screenshot" width="230">
-<img src="./assets/screenshots/tablet-screenshot.png" alt="Table screenshot" width="230">  
-<img src="./assets/screenshots/desktop-screenshot.png" alt="Desktop screenshot" width="500">
-</div>
+![Desktop screenshot](./assets/images/screenshot.png)
 
 ## Links
 
@@ -33,3 +29,7 @@ Users should be able to:
 
 - Frontend Mentor - [@codereme](https://www.frontendmentor.io/profile/codereme)
 - Github - [@codereme](https://github.com/codereme)
+
+---
+
+_\* Last Update: 2025-12-01_
