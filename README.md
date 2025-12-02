@@ -213,7 +213,7 @@ Social icon links using `SVG sprite`. Background images for mobile and desktop s
 
 </div>
 
-![Desktop screenshot]()
+![Desktop screenshot](./huddle-landing-page/assets/images/screenshot.png)
 
 ### Social Proof Section
 
