@@ -9,6 +9,7 @@ The challenge was to build out this QR code component and get it as close as pos
 To accomplished this, I used:
 
 - Semantic HTML5 for the structure
+- BEM Methodology
 - CSS for the styling
 - Flexbox
 - Logical Properties
@@ -52,4 +53,4 @@ Beyond the visual design, I also focused on `accessibility` and `SEO fundamental
 
 ---
 
-_\* Last Update: 2025-11-29_
+_\* Last Update: 2025-12-4_
