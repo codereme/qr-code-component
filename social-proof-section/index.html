@@ -5,103 +5,131 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
   <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap" rel="stylesheet">
 
   <title>Frontend Mentor | Social proof section</title>
+
   <meta name="description" content="Solution to Social proof section challenge on Frontend Mentor">
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+
   <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-  <main>
-    <div class="page-container">
+  <div class="page-container">
+    <main>
+
       <section class="social-proof">
         <div class="container">
-          <div class="intro-rates-wrapper-md">
-            <section class="intro">
-              <div class="content">
-                <h1 class="intro-title">
+
+          <section class="intro">
+            <div class="container">
+
+              <div class="intro__text">
+                <h1 class="intro__title">
                   10,000+ of our users love our products.
                 </h1>
-                <p class="intro-description">
+                <p class="intro__description">
                   We only provide great products combined with excellent customer service.
                   See what our satisfied customers are saying about our services.
                 </p>
-              </div>
-            </section>
+              </div> <!-- end of intro-text -->
 
-            <section class="rates">
-              <div class="content">
-                <div class="rate-container">
-                  <div class="star-icons"></div>
-                  <p class="rate-description">Rated 5 Stars in Reviews</p>
-                </div>
-                <div class="rate-container">
-                  <div class="star-icons"></div>
-                  <p class="rate-description">Rated 5 Stars in Report Guru</p>
-                </div>
-                <div class="rate-container">
-                  <div class="star-icons"></div>
-                  <p class="rate-description">Rated 5 Stars in BestTech</p>
-                </div>
-              </div>
-            </section>
-          </div>
-          <section class="cards-section">
-            <article class="card">
-              <div class="content">
+              <ul class="ratings">
+                <li class="rating__item">
+                  <div class="rating__stars"></div>
+                  <p class="rating__description">
+                    Rated 5 Stars in Reviews
+                  </p>
+                </li>
+                <li class="rating__item">
+                  <div class="rating__stars"></div>
+                  <p class="rating__description">
+                    Rated 5 Stars in Report Guru
+                  </p>
+                </li>
+                <li class="rating__item">
+                  <div class="rating__stars"></div>
+                  <p class="rating__description">
+                    Rated 5 Stars in BestTech
+                  </p>
+                </li>
+              </ul> <!-- end of ratings -->
+
+            </div> <!-- end of container -->
+          </section> <!-- end of intro section -->
+
+          <section class="cards">
+            <div class="container">
+
+              <article class="card">
+
                 <div class="profile">
-                  <img class="profile-pic" src="./images/image-colton.jpg" alt="Colton Smith">
+                  <img class="profile__pic" src="./images/image-colton.jpg" alt="Colton Smith">
+
                   <div class="profile-details">
-                    <h2 class="profile-name">Colton Smith</h2>
-                    <span class="profile-status">Verified Buyer</span>
+                    <h2 class="profile__name">Colton Smith</h2>
+                    <span class="profile__status">Verified Buyer</span>
                   </div>
-                </div>
-                <blockquote class="card-testimonial">
+                </div><!-- end of profile -->
+
+                <blockquote class="card__testimonial">
                   "We needed the same printed design as the one we had ordered a week
                   prior. Not only did they find the original order, but we also received it in time.
                   Excellent!"
                 </blockquote>
-              </div>
-            </article>
 
-            <article class="card">
-              <div class="content">
+              </article>
+
+              <article class="card">
+
                 <div class="profile">
-                  <img class="profile-pic" src="./images/image-irene.jpg" alt="Irene Roberts">
+                  <img class="profile__pic" src="./images/image-irene.jpg" alt="Irene Roberts">
                   <div class="profile-details">
-                    <h2 class="profile-name">Irene Roberts</h2>
-                    <span class="profile-status">Verified Buyer</span>
+                    <h2 class="profile__name">Irene Roberts</h2>
+                    <span class="profile__status">Verified Buyer</span>
                   </div>
-                </div>
-                <blockquote class="card-testimonial">
+                </div> <!-- end of profile -->
+
+                <blockquote class="card__testimonial">
                   "Customer service is always excellent and very quick turn around. Completely delighted with the
                   simplicity of the purchase and the speed of delivery."
                 </blockquote>
-              </div>
-            </article>
 
-            <article class="card">
-              <div class="content">
+              </article>
+
+              <article class="card">
+
                 <div class="profile">
-                  <img class="profile-pic" src="./images/image-anne.jpg" alt="Anne Wallace">
+                  <img class="profile__pic" src="./images/image-anne.jpg" alt="Anne Wallace">
+
                   <div class="profile-details">
-                    <h2 class="profile-name">Anne Wallace</h2>
-                    <span class="profile-status">Verified Buyer</span>
+                    <h2 class="profile__name">Anne Wallace</h2>
+                    <span class="profile__status">Verified Buyer</span>
                   </div>
-                </div>
-                <blockquote class="card-testimonial">
+
+                </div> <!-- end of profile -->
+
+                <blockquote class="card__testimonial">
                   "Put an order with this company and can only praise them for the
                   very high standard. Will definitely use them again and recommend them to everyone!"
                 </blockquote>
-              </div>
-            </article>
-          </section>
-        </div>
-      </section>
-    </div>
-  </main>
+
+              </article>
+            </div> <!-- end of container -->
+
+          </section> <!-- end of cards section -->
+
+        </div> <!-- end of container -->
+      </section> <!-- end of social-proof -->
+
+    </main>
+
+  </div> <!-- end of page-container -->
 
 </body>
 
