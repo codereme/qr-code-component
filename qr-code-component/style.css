@@ -3,8 +3,7 @@
 *
 * RESET
 * GLOBAL STYLES
-* TYPOGRAPHY
-* IMAGES
+* CARD COMPONENT
 * LAYOUT
 */
 
@@ -62,35 +61,48 @@ html {
 }
 
 /*-------------------------- *\
-  #TYPOGRAPHY 
+  #CARD 
 \*---------------------------*/
 
-.text-preset-1 {
+.card {
+  width: min(21.33rem, 90vw);
+
+  padding: var(--spacing-200);
+  padding-block-end: var(--spacing-500);
+
+  border-radius: var(--border-radius-md);
+  background-color: var(--white);
+  box-shadow: var(--shadow-subtle);
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-200);
+
+  padding: var(--spacing-200);
+
+  text-align: center;
+}
+.card__img {
+  display: block;
+  max-inline-size: 100%;
+  block-size: auto;
+
+  border-radius: var(--border-radius-sm);
+}
+.card__title {
   font-size: var(--fs-lg);
   font-weight: var(--fw-bold);
   line-height: 1.2;
+  color: var(--slate-900);
 }
-.text-preset-2 {
+.card__text {
   font-size: var(--fs-md);
   font-weight: var(--fw-regular);
   line-height: 1.4;
   letter-spacing: 0.0133rem;
-}
-.text-dark {
-  color: var(--slate-900);
-}
-.text-light {
   color: var(--slate-500);
-}
-/*-------------------------- *\
-  #IMAGES 
-\*---------------------------*/
-
-.card-img {
-  max-inline-size: 100%;
-  block-size: auto;
-  object-fit: cover;
-  border-radius: var(--border-radius-sm);
 }
 
 /*---------------------------*\
@@ -104,33 +116,5 @@ html {
   justify-content: center;
   min-height: 100vh;
 
-  padding: var(--spacing-300);
-  background-color: var(--slate-300);
-}
-.card {
-  width: min(21.33rem, 90vw);
-
-  padding: var(--spacing-200);
-  padding-block-end: var(--spacing-500);
-
-  border-radius: var(--border-radius-md);
-  background-color: var(--white);
-  box-shadow: var(--shadow-subtle);
-}
-.content-text {
-  padding-inline: var(--spacing-200);
-}
-.col {
-  display: flex;
-  flex-direction: column;
-}
-.col-center {
-  align-items: center;
-  text-align: center;
-}
-.gap-md {
-  gap: var(--spacing-200);
-}
-.gap-lg {
-  gap: var(--spacing-300);
+  background-color: var(--slate-200);
 }
