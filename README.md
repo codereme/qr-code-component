@@ -225,7 +225,7 @@ Social icon links using `SVG sprite`. Background images for mobile and desktop s
 
 </div>
 
-![Desktop screenshot]()
+![Desktop screenshot](./social-proof-section/images/screenshot.png)
 
 ### Single Price Grid Component
 
@@ -237,7 +237,7 @@ Social icon links using `SVG sprite`. Background images for mobile and desktop s
 
 </div>
 
-![Desktop screenshot]()
+![Desktop screenshot](./single-price-grid-component/images/screenshot.png)
 
 ## Author
 
