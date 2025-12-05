@@ -37,7 +37,7 @@ A simple, centered QR code component built from a Figma design file. Focused on 
 
 ### Blog Preview Card
 
-A responsive blog card implementing custom visual styles. Features include a **box shadow** for subtle depth and controlled image cropping via container height.
+A responsive blog card implementing custom visual styles. Features include a bold, 8px offset black box-shadow creating a distinctive graphic look and image cropping via container height.
 
 - Live Site: [View here](https://codereme.github.io/frontend-mentor-solutions/blog-preview-card/index.html)
 - Code Solution: [View here](https://github.com/codereme/frontend-mentor-solutions/tree/main/blog-preview-card)
@@ -111,7 +111,7 @@ A centered profile card component. Practiced positioning the avatar image using 
 A clean order summary component built with **accessibility in mind**. Includes proper **ARIA labels** and a technique for **visually hiding decorative icons** while keeping them accessible to screen readers.
 
 - Live Site: [View here](https://codereme.github.io/frontend-mentor-solutions/order-summary-component/index.html)
-- Code Solution: [View here](https://github.com/codereme/frontend-mentor-solutions/tree/main/order-summary-component)
+- Code Solution: [View here]loolooaftps://github.com/codereme/frontend-mentor-solutions/tree/main/order-summary-component)
 
 ![Desktop screenshot](./order-summary-component/images/screenshot-desktop.png)
 
@@ -126,7 +126,7 @@ A preview card for an NFT asset. Features a **smooth image overlay effect** on h
 
 ### Stats Preview Card Component
 
-A card component showcasing statistics. The key feature is a **color overlay on the main image**, created using a `::before` pseudo-element with a semi-transparent background.
+A card component showcasing statistics. The key feature is a **color overlay on the main image**, created using a `::after` pseudo-element with a semi-transparent background.
 
 - Live Site: [View here](https://codereme.github.io/frontend-mentor-solutions/stats-preview-card-component/index.html)
 - Code Solution: [View here](https://github.com/codereme/frontend-mentor-solutions/tree/main/stats-preview-card-component)
